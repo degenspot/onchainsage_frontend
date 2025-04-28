@@ -7,6 +7,8 @@ import PricingSection from "@/components/pricing/pricing-section"
 import { useEffect } from "react"
 import { CTASection } from "@/components/CTASection"
 import { Footer } from "@/components/Footer"
+import Navbar from "@/components/Layout/Navbar";
+
 
 export default function Home() {
   // Function to handle smooth scrolling
@@ -32,6 +34,7 @@ export default function Home() {
 
   return (
     <div className="min-h-screen">
+      <Navbar/>
       {/* Hero Section */}
       <div className="bg-white">
         <div className="container mx-auto px-4 py-16 md:py-24">
