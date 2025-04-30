@@ -38,7 +38,7 @@ export default function NotificationSettings() {
   };
 
   return (
-    <div className="max-w-2xl">
+    <div className="w-full">
       <div className="mb-8">
         <h3 className="text-lg font-medium mb-2">Signal Notifications</h3>
         <p

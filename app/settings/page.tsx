@@ -49,9 +49,9 @@ export default function SettingsPage() {
       }`}
     >
       <Sidebar />
-      <div className="p-4 md:p-6 md:ml-72">
+      <div className="flex-1 p-4 md:p-6 md:ml-72">
         <SettingsHeader activeTab={activeTab} setActiveTab={setActiveTab} />
-        <div className="mt-6">{renderContent()}</div>
+        <div className="mt-6 w-full">{renderContent()}</div>
       </div>
     </div>
   );

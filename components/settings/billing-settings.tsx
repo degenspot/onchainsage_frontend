@@ -14,7 +14,7 @@ import { Check, CreditCard } from "lucide-react";
 
 export default function BillingSettings() {
   return (
-    <div className="max-w-2xl">
+    <div className="w-full">
       <div className="mb-8">
         <h3 className="text-lg font-medium mb-4">Current Plan</h3>
 

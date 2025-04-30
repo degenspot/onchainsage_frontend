@@ -8,7 +8,7 @@ export default function ConnectedAccounts() {
     useSettingsStore();
 
   return (
-    <div className="max-w-2xl">
+    <div className="w-full">
       <h3 className="text-lg font-medium mb-4">Connected Accounts</h3>
 
       <div className="flex items-center justify-between p-4 border border-gray-800 rounded-lg mb-4">

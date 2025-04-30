@@ -38,7 +38,7 @@ export default function AppearanceSettings() {
   }
 
   return (
-    <div className="max-w-2xl">
+    <div className="w-full">
       <div className="mb-8">
         <h3 className="text-lg font-medium mb-4">Theme</h3>
 

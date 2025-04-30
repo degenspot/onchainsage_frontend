@@ -94,7 +94,7 @@ export default function SettingsHeader({
         </div>
       </div>
 
-      <div className="flex items-center space-x-2 mb-6 overflow-x-auto">
+      <div className="flex items-center justify-evenly mb-6 overflow-x-auto">
         <button
           onClick={() => setActiveTab("account")}
           className={`px-3 py-1 rounded-md text-sm ${
