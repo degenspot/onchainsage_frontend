@@ -2,6 +2,7 @@ import "./globals.css";
 import { Inter } from "next/font/google";
 import Navbar from "@/components/Layout/Navbar";
 import { StarknetProvider } from "@/context/StarknetContext";
+import { Toaster } from "@/components/ui/toaster";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,6 +23,7 @@ export default function RootLayout({
           <div className="min-h-screen">
             {/* <Navbar /> */}
             {children}
+            <Toaster />
           </div>
         </StarknetProvider>
       </body>
