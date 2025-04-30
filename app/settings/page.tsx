@@ -49,7 +49,7 @@ export default function SettingsPage() {
       }`}
     >
       <Sidebar />
-      <div className="p-6 md:ml-72">
+      <div className="p-4 md:p-6 md:ml-72">
         <SettingsHeader activeTab={activeTab} setActiveTab={setActiveTab} />
         <div className="mt-6">{renderContent()}</div>
       </div>
